@@ -12,7 +12,7 @@ class House:
             if self.new_floors > self.number_of_floors:
                 print('this isn,t floors')
             else:
-                for i in range(1, self.new_floors):
+                for i in range(1, self.new_floors + 1):
                     print(i)
     def __len__(self):
         return self.number_of_floors
